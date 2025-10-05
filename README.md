@@ -45,12 +45,13 @@ Matplotlib
 
 Data visualization and plotting.
 
-###4. How to Run Locally
+### 4. How to Run Locally
 To run this application on your local machine, follow these steps:
 
 #### Clone the Repository:
 
-git clone donita-lemek/goldpriceprediction/
+git clone donita-lemek/goldpriceprediction
+
 cd goldpriceprediction
 
 Install Dependencies: Ensure you have Python installed, then install the required libraries using the requirements.txt file:
