@@ -1,17 +1,17 @@
 
 # 🪙 Gold Price Forecasting Web App
-###1. Project Description
+### 1. Project Description
 This is an interactive Streamlit web application that utilizes time-series analysis and Linear Regression to predict the Indian retail price of gold (INR/gram).
 
 Unlike simple historical models, this application integrates key macroeconomic and policy variables to create a robust pricing model. Crucially, the application allows users to simulate the impact of future policy changes (Import Duty, GST) and external risk factors on the 30-day forecast.
 
 The primary goal is to provide a comprehensive tool for analyzing the complex drivers of India's gold market, moving beyond simple correlation to offer actionable, policy-sensitive predictions.
 
-###2. Methodology & Features
+### 2. Methodology & Features
 Core Methodology: Linear Regression with Lagged Features
 The model uses a Linear Regression approach, specifically relying on lagged features. This means the model's highest predictor for today's price is the price from the previous day. This method effectively captures the daily randomness inherent in financial markets while allowing external factors to influence the prediction's slope.
 
-####Key Interactive Features
+#### Key Interactive Features
 The application provides an interactive sidebar that allows users to manipulate three critical variables that drive the forecast:
 
 Import Duty (%): Adjusts the gold import duty rate.
@@ -22,7 +22,7 @@ International Political Risk Score (1-10): A simulated factor that proxies globa
 
 The main interface displays a time-series plot of the historical data, the model's fit, and the simulated 30-day forecast, alongside a detailed daily forecast table.
 
-###3. Technical Stack
+### 3. Technical Stack
 The application is built entirely in Python using the following libraries:
 
 Library
@@ -48,7 +48,7 @@ Data visualization and plotting.
 ###4. How to Run Locally
 To run this application on your local machine, follow these steps:
 
-####Clone the Repository:
+#### Clone the Repository:
 
 git clone donita-lemek/goldpriceprediction/
 cd goldpriceprediction
@@ -69,7 +69,7 @@ gst_daily.csv
 
 USD_INR Historical Data (1).csv
 
-####Run the App:
+#### Run the App:
 
 streamlit run streamlit_app.py
 
